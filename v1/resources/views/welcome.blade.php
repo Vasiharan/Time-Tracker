@@ -5,20 +5,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     </head>
-    <body ng-app="timeTracker" ng-controller="TimeEntry as vm">
 
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Time Tracker</a>
-                </div>
-            </div>
-        </nav>
-
-        <div class="container">
-
-        </div>
-    </body>
+    
 
     <!-- Application Dependencies -->
     <script type="text/javascript" src="bower_components/angular/angular.js"></script>
