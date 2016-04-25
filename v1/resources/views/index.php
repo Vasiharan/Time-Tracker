@@ -81,10 +81,10 @@
                         <h4>Edit Time Entry</h4>
                         <div class="time-entry">
                             <div class="timepicker">
-                                <span class="timepicker-title label label-primary">Clock In</span><timepicker ng-model="time.start_time" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
+                                <span class="timepicker-title label label-primary">Clock In</span><uib-timepicker ng-model="time.start_time" hour-step="1" minute-step="1" show-meridian="true"></uib-timepicker>
                             </div>
                             <div class="timepicker">
-                                <span class="timepicker-title label label-primary">Clock Out</span><timepicker ng-model="time.end_time" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
+                                <span class="timepicker-title label label-primary">Clock Out</span><uib-timepicker ng-model="time.end_time" hour-step="1" minute-step="1" show-meridian="true"></uib-timepicker>
                             </div>
                        </div>
                        <div class="col-sm-6">
