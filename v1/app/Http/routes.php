@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/v1', function () {
-    return view('ScothcBoxIndex');
+    return view('ScotchBoxIndex');
 });
 
 /*
