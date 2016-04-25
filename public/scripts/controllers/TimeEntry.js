@@ -1,6 +1,6 @@
 (function() {
 
-  'use strict';
+    'use strict';
 
     angular
         .module('timeTracker')
@@ -12,6 +12,15 @@
             var vm = this;
 
             vm.timeentries = [];
+
+            // Fetches the time entries from the static JSON file
+            // and puts the results on the vm.timeentries array
+            time.getTime().then(function(results) {
+                vm.timeentries = results;
+                console.log(vm.timeentries);
+            }, function(error) { // Check for errors
+                console.log(error);
+            });
 
         }
 })();
