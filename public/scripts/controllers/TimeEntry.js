@@ -53,8 +53,8 @@
 
                 vm.timeentries.push({
                     "user_id":1,
-                    "user_firstname":"Ryan",
-                    "user_lastname":"Chenkie",
+                    "user_firstname":"Vasi",
+                    "user_lastname":"Log",
                     "start_time":vm.clockIn,
                     "end_time":vm.clockOut,
                     "loggedTime": time.getTimeDiff(vm.clockIn, vm.clockOut),
