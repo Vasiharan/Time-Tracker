@@ -6,7 +6,29 @@
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     </head>
     <body ng-app="timeTracker" ng-controller="TimeEntry as vm">
-
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/">Vasi - Angular + Laravel</a>
+              </div>
+              <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav pull-right">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/v1">Status</a></li>
+                      <li><a href="https://github.com/Vasiharan">Vasi</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <section id="topper" style="background-image: url('data:image/svg+xml;base64,<?php echo base64_encode('<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><defs id="defs4"><filter color-interpolation-filters="sRGB" id="filter3115"><feTurbulence type="fractalNoise" numOctaves="1" baseFrequency="0.9" id="feTurbulence3117"/><feColorMatrix result="result5" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -4.15 " id="feColorMatrix3119"/><feComposite in2="result5" operator="in" in="SourceGraphic" result="result6" id="feComposite3121"/><feMorphology in="result6" operator="dilate" radius="1" result="result3" id="feMorphology3123"/></filter></defs><rect width="100%" height="100%" x="0" y="0" id="rect2985" fill="#000000"/><rect width="100%" height="100%" x="0" y="0" id="rect2985" style="fill:#FF4343;filter:url(#filter3115)"/></svg>'); ?>');">
+            <h1>Time Tracker</h1>
+        </section>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">

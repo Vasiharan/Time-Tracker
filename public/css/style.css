@@ -12,3 +12,91 @@
         top: 60px;
     }
 }
+
+::selection {
+    background: #000;
+    color: #fff;
+}
+::-moz-selection {
+    background: #000;
+    color: #fff;
+}
+body {
+    font-family: 'Pathway Gothic One', sans-serif;
+    height: 2000px;
+}
+a {
+    -webkit-transition: all 310ms ease;
+    -moz-transition: all 310ms ease;
+    transition: all 310ms ease;
+    text-decoration: none !important;
+}
+section {
+    position: relative;
+}
+#topper {
+    margin-top: 51px;
+    height: 200px;
+    text-align: center;
+}
+#topper svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#topper h1 {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+#topper h1 i {
+    color: rgb(255, 157, 157);
+}
+article {
+    padding: 50px 0;
+}
+article table {
+    background: #e3e3e3;
+}
+article .content .wrap {
+    background: rgba(255, 27, 53, 0.8);
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article .content .wrap h2 {
+    margin: 10px 0 15px;
+    color: #fff;
+}
+article .content .wrap td {
+    font-size: 20px;
+}
+article .fa-times {
+    color: rgb(255, 69, 69);
+}
+article .fa-check {
+    color: rgb(0, 179, 64);
+}
+#site-footer {
+    background: #05003D;
+    padding: 100px 0;
+    color: #e3e3e3;
+    font-size: 35px;
+}
+#site-footer a {
+    color: #fff;
+}
+#site-footer a:hover {
+    color: rgb(144, 255, 184);
+}
