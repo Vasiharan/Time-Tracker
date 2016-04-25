@@ -57,7 +57,7 @@
                 <div class="well vm" ng-repeat="time in vm.timeentries">
                     <div class="row">
                         <div class="col-sm-8">
-                            <h4><i class="glyphicon glyphicon-user"></i> {{time.user_firstname}} {{time.user_lastname}}</h4>
+                            <h4><i class="glyphicon glyphicon-user"></i> {{time.user.first_name}} {{time.user.last_name}}</h4>
                             <p><i class="glyphicon glyphicon-pencil"></i> {{time.comment}}</p>
                         </div>
                         <div class="col-sm-4 time-numbers">
