@@ -19,6 +19,13 @@ Route::get('/v1', function () {
     return view('ScotchBoxIndex');
 });
 
+// A route group allows us to have a prefix, in this case api
+Route::group(array('prefix' => 'api'), function()
+{
+    Route::resource('time', 'TimeEntriesController');
+    Route::resource('users', 'UsersController');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
