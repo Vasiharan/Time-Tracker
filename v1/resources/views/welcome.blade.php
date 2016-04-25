@@ -1,45 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <title>Time Tracker</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+    <body ng-app="timeTracker" ng-controller="TimeEntry as vm">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Time Tracker</a>
+                </div>
             </div>
+        </nav>
+
+        <div class="container">
+
         </div>
     </body>
+
+    <!-- Application Dependencies -->
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
+    <script type="text/javascript" src="bower_components/moment/moment.js"></script>
+
+    <!-- Application Scripts -->
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="scripts/controllers/TimeEntry.js"></script>
+    <script type="text/javascript" src="scripts/services/time.js"></script>
 </html>
