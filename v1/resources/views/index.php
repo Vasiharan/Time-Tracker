@@ -15,10 +15,10 @@
             </div>
             <div class="container-fluid time-entry">
                 <div class="timepicker">
-                    <span class="timepicker-title label label-primary">Clock In</span><timepicker ng-model="vm.clockIn" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
+                    <span class="timepicker-title label label-primary">Clock In</span><uib-timepicker ng-model="vm.clockIn" hour-step="1" minute-step="1" show-meridian="true"></uib-timepicker>
                 </div>
                 <div class="timepicker">
-                    <span class="timepicker-title label label-primary">Clock Out</span><timepicker ng-model="vm.clockOut" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
+                    <span class="timepicker-title label label-primary">Clock Out</span><uib-timepicker ng-model="vm.clockOut" hour-step="1" minute-step="1" show-meridian="true"></uib-timepicker>
                 </div>
                 <div class="time-entry-comment">
                     <form class="navbar-form">
