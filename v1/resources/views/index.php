@@ -106,13 +106,7 @@
                 </div>
 
             </div>
-            <div class="col-sm-4">
-                <div class="well time-numbers">
-                    <h1><i class="glyphicon glyphicon-time"></i> Total Time</h1>
-                    <h1><span class="label label-primary">{{vm.totalTime.hours}} hours</span></h1>
-                    <h3><span class="label label-default">{{vm.totalTime.minutes}} minutes</span></h3>
-                </div>
-            </div>
+            <div total-time></div>
           </div>
     </body>
 
@@ -127,4 +121,5 @@
     <script type="text/javascript" src="scripts/controllers/TimeEntry.js"></script>
     <script type="text/javascript" src="scripts/services/time.js"></script>
     <script type="text/javascript" src="scripts/services/user.js"></script>
+    <script type="text/javascript" src="scripts/directives/totalTime.js"></script>
 </html>
