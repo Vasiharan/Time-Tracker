@@ -6,7 +6,7 @@ Scotch Box
 ## [Read the 2.0 release article](https://scotch.io/bar-talk/announcing-scotch-box-2-0-our-dead-simple-vagrant-lamp-stack-improved)
 ## [Read the 2.5 release article](https://scotch.io/bar-talk/announcing-scotch-box-2-5)
 
-![Scotch Box](https://www.dropbox.com/s/y59ln6cwm4gojb5/Untitled.png)
+![Scotch Box](https://scotch.io/wp-content/uploads/2015/11/scotch-box-2.5-share.png)
 
 Scotch Box is a preconfigured Vagrant Box with a full array of LAMP Stack features to get you up and running with Vagrant in no time.
 
