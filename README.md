@@ -126,7 +126,7 @@ vagrant ssh
 
 ## Database Access
 
-### MySQL 
+### MySQL
 
 - Hostname: localhost or 127.0.0.1
 - Username: root
